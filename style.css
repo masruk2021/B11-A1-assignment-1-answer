@@ -1,4 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* headline style */
+.headline{
+    display:flex;
+    gap: 1130px;
+    margin-bottom:40px;
+}
+.h-title{
+ color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+}
+.h-btn{
+    margin-top:20px;
+width: 116px;
+height: 52px;
+/* padding: 15px 30px 15px 30px; */
+    border: 1px solid rgb(0, 106, 80);
+border-radius: 8px;
+color: rgb(0, 106, 80);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+justify-content: center;
+align-items: center;
+}
+
+
 /* banner style */
 .banner{
     background-color: rgb(198, 228, 214);
@@ -77,4 +105,90 @@ color: rgba(14, 14, 14, 0.7);
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
+}
+/* future-style */
+.future{
+    gap:32px;
+    width:1480px;;
+}
+.future-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700; 
+}
+.description{
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+}
+.future-box{
+    padding:32px;
+border-radius: 16px;
+background-color: rgba(84, 144, 245, 0.2);
+}
+.box-title{
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+}
+.box-despription{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+}
+.box-btn{
+border-radius: 8px;
+background-color: rgb(84, 144, 245);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+padding: 11px 20px 11px 20px;
+}
+.f-color-2{
+    background-color: rgb(9, 161, 92);
+}
+.f-color-3{
+    background: rgb(255, 194, 57); 
+}
+.future-container{
+    display:flex;
+    flex-direction: ;
+    justify-content: flex-start;
+align-items: flex-start;
+gap:24px;
+margin-bottom:32px;
+}
+.ynnus{
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+padding: 48px 24px 48px 24px;
+background-image: url(assets/quote-bg.png);
+background-repeat:no-repeat;
+background-position:28px 40px;
+margin-bottom:45px;
+}
+.ynnus-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;  
+}
+.ynnus-subtitle{
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;  
+}
+.ynnus p{
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
 }
