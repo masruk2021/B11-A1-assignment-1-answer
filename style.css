@@ -269,3 +269,69 @@ margin-bottom: 30px;
 .news-content{
    
 }
+/* donate style */
+.donate{
+  width:1480px;
+}
+.donate-heading{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.donate-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.taka-container{
+    display: flex;
+    gap:44px;
+    align-items: center;
+    justify-content: center;
+}
+
+.taka-box{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    gap-left: 24px;
+}
+.input-wrapper{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 30px;
+}
+.input-wrapper input{
+    padding: 20px 40px 20px 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+background-color: rgb(255, 255, 255);
+width: 1032px;
+
+}
+.btn-con{
+display:flex;
+justify-content: center;
+margin-top: 30px;
+}
+.done-taka{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 17px 34px 17px 34px; 
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600; 
+}
